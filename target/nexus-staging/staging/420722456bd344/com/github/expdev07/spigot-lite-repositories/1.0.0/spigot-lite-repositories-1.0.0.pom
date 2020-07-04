@@ -7,11 +7,12 @@
     <!-- Project -->
     <groupId>com.github.expdev07</groupId>
     <artifactId>spigot-lite-repositories</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <!-- Properties -->
     <properties>
+        <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
