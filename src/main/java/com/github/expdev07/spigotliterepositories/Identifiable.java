@@ -3,7 +3,7 @@ package com.github.expdev07.spigotliterepositories;
 /**
  * An object that is identifiable by an unique id.
  *
- * @param <ID>
+ * @param <ID> The ID type.
  */
 public interface Identifiable<ID>
 {
