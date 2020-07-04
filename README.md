@@ -55,11 +55,10 @@ Now build your plugin with ``mvn clean package``.
 
 At the moment, only storing objects in JSON is supported. Look at an example below for storing a custom user.
 
-
 ### The object
 
 Every object that you store should implement ``Identifiable<ID>``. This gives the object an id which it can be identified by. ``ID`` is 
-the type of id and can be e.g ``Integer``, ``UUID``, ``String``, etc. In the example below, our ``CustomPlayer`` uses a ``UUID`` for its 
+the type of id and can be e.g ``Integer``, ``UUID``, ``String``, etc. In the example below, our ``CustomPlayer`` uses ``UUID`` for its 
 id.
 
 ```java
